@@ -1,0 +1,128 @@
+/* Navbar container */
+.navbar {
+  background-color: #1a1a2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.navbar-logo {
+  color: #00aaff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Links container */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Links style */
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #00aaff;
+}
+
+/* Active link */
+.active {
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 2px;
+}
+
+
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.user-card {
+  background: #1a1a2e;
+  color: white;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.user-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-age {
+  color: #00aaff;
+  font-weight: bold;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.user-form {
+  background: #1a1a2e;
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.user-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00aaff;
+}
+
+.user-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.user-form input:focus {
+  box-shadow: 0 0 5px #00aaff;
+}
+
+.submit-btn {
+  background: #00aaff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #0088cc;
+}
